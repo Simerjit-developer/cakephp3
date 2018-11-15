@@ -1,0 +1,10 @@
+<?php
+if($lang=='english')
+{
+   require(WWW_ROOT.'files/Languages/english.php');
+}
+else
+{
+   require(WWW_ROOT.'files/Languages/portuguese.php');
+}
+?>

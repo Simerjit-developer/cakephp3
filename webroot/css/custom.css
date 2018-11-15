@@ -1,0 +1,171 @@
+/* Flash Messages */
+div.message {
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    font-weight: normal;
+    padding: 0 1.5rem 0 1.5rem;
+    transition: height 300ms ease-out 0s;
+    background-color: #a0d3e8;
+    color: #626262;
+    top: 15px;
+    right: 15px;
+    z-index: 999;
+    overflow: hidden;
+    height: 50px;
+    line-height: 2.5em;
+}
+
+div.message:before {
+    line-height: 0px;
+    font-size: 20px;
+    height: 12px;
+    width: 12px;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    left: -11px;
+    background-color: #FFF;
+    padding: 12px 14px 12px 10px;
+    content: "i";
+    color: #a0d3e8;
+}
+
+div.message.error {
+    background-color: #C3232D;
+    color: #FFF;
+}
+
+div.message.error:before {
+    padding: 11px 16px 14px 7px;
+    color: #C3232D;
+    content: "x";
+}
+div.message.hidden {
+    height: 0;
+}
+/********Pagination*********/
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin:  0;
+  border-radius: 4px;
+}
+.pagination > li {
+  display: inline;
+}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding:  6px 12px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  color: #666;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  margin-left: -1px;
+  text-transform: capitalize;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  margin-left: 0;
+}
+.pagination > li > a:hover,
+.pagination > li > a:focus,
+.pagination > li > span:hover,
+.pagination > li > span:focus {
+  z-index: 2;
+  color: #23527c;
+  background-color:#eee ;
+  border-color: #ddd;
+}
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.pagination > .active > span:focus {
+  z-index: 3;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+  cursor: default;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  color: #777;
+  background-color: #fff;
+  border-color: #ddd;
+  cursor: not-allowed;
+}
+
+/*------------27th sep----------------*/
+#easySelectable .checkbox-inline{
+    position: relative;
+    overflow: hidden;
+}
+#easySelectable input[type=checkbox]{
+	position: absolute;
+    opacity: 0;
+}
+ #easySelectable li.es-selected {
+    background: #63c8c7 !important;
+}
+.charts .card .bx-wrapper{
+    width: 300px;
+    margin: 0 auto 60px;
+}
+.charts .card .bx-wrapper .bx-caption span{
+	text-align: center;
+}
+.charts .card-body .widget-wrap{
+	    margin-right: 11px;
+} 
+.charts .dashboard-counts .item{
+	    padding: 15px 14px 15px 0 !important;
+}
+
+.sup-side{
+    display: block;
+    float: left;
+    width: 33px;
+}
+ .charts .row1{
+ 	 margin: 0 !important;
+    padding: 0 !important;
+ }
+
+ .select2-container--default .select2-selection--single{
+ 	background-color: transparent  !important;
+     border:none !important; 
+     border-radius: 0px  !important; 
+ }
+ .select2-container{
+ 	    border: 1px solid #aaa;
+ }
+
+ .select2-container .select2-selection--single .select2-selection__rendered{
+ 	    padding-top: 6px;
+ }
+
+ .forms .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 7px !important;
+}
+.select2-search--dropdown {
+    padding: 0px 4px !important;
+}
+.logo_icon img{
+    width: 25px;
+    border-radius: 2px;
+}
+.logo_text{
+    color: #ff7542;
+    padding-left: 5px;
+}

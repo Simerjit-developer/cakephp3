@@ -1,0 +1,4 @@
+.easySelectable {-webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;}
+#easySelectable {display: flex; flex-wrap: wrap;}
+#easySelectable li {margin: 0 10px 10px 0; background: #fff; transition: background 0.2s; width: 100px; height: 100px; color: #222; font-weight: bold; text-align: center; display: flex; justify-content: center; align-items: center; cursor: pointer; box-shadow: 0px 1px 1px #ccc;}
+#easySelectable li.es-selected {background: #2196F3; color: #fff;}

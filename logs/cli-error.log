@@ -1,0 +1,81 @@
+2018-07-05 07:36:01 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Driver.php on line 92
+Stack Trace:
+#0 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Driver.php(92): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(106): Cake\Database\Driver->_connect('mysql:host=loca...', Array)
+#2 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /opt/lampp/htdocs/supperout/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(1034): Cake\Database\Connection->getSchemaCollection()
+#8 /opt/lampp/htdocs/supperout/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(988): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 /opt/lampp/htdocs/supperout/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(1003): Bake\Shell\Task\ModelTask->listAll()
+#10 /opt/lampp/htdocs/supperout/vendor/cakephp/bake/src/Shell/BakeShell.php(251): Bake\Shell\Task\ModelTask->listUnskipped()
+#11 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Console/Shell.php(518): Bake\Shell\BakeShell->all()
+#12 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Console/CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#13 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Console/CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#14 /opt/lampp/htdocs/supperout/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#15 {main}
+
+
+2018-07-05 07:36:35 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Driver.php on line 92
+Stack Trace:
+#0 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Driver.php(92): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(106): Cake\Database\Driver->_connect('mysql:host=loca...', Array)
+#2 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /opt/lampp/htdocs/supperout/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(1034): Cake\Database\Connection->getSchemaCollection()
+#8 /opt/lampp/htdocs/supperout/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(988): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 /opt/lampp/htdocs/supperout/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(1003): Bake\Shell\Task\ModelTask->listAll()
+#10 /opt/lampp/htdocs/supperout/vendor/cakephp/bake/src/Shell/BakeShell.php(251): Bake\Shell\Task\ModelTask->listUnskipped()
+#11 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Console/Shell.php(518): Bake\Shell\BakeShell->all()
+#12 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Console/CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#13 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Console/CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#14 /opt/lampp/htdocs/supperout/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#15 {main}
+
+
+2018-07-05 07:36:39 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Driver.php on line 92
+Stack Trace:
+#0 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Driver.php(92): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(106): Cake\Database\Driver->_connect('mysql:host=loca...', Array)
+#2 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /opt/lampp/htdocs/supperout/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(1034): Cake\Database\Connection->getSchemaCollection()
+#8 /opt/lampp/htdocs/supperout/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(988): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 /opt/lampp/htdocs/supperout/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(1003): Bake\Shell\Task\ModelTask->listAll()
+#10 /opt/lampp/htdocs/supperout/vendor/cakephp/bake/src/Shell/BakeShell.php(251): Bake\Shell\Task\ModelTask->listUnskipped()
+#11 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Console/Shell.php(518): Bake\Shell\BakeShell->all()
+#12 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Console/CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#13 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Console/CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#14 /opt/lampp/htdocs/supperout/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#15 {main}
+
+
+2018-07-05 07:36:43 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Driver.php on line 92
+Stack Trace:
+#0 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Driver.php(92): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(106): Cake\Database\Driver->_connect('mysql:host=loca...', Array)
+#2 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Database/Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /opt/lampp/htdocs/supperout/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(1034): Cake\Database\Connection->getSchemaCollection()
+#8 /opt/lampp/htdocs/supperout/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(988): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 /opt/lampp/htdocs/supperout/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(1003): Bake\Shell\Task\ModelTask->listAll()
+#10 /opt/lampp/htdocs/supperout/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(93): Bake\Shell\Task\ModelTask->listUnskipped()
+#11 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Console/Shell.php(532): Bake\Shell\Task\ModelTask->main()
+#12 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Console/Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#13 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Console/CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#14 /opt/lampp/htdocs/supperout/vendor/cakephp/cakephp/src/Console/CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#15 /opt/lampp/htdocs/supperout/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#16 {main}
+
+
